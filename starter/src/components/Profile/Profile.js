@@ -27,7 +27,7 @@ const Profile = () => {
     }, []);
 
     const isUsernameValid = useMemo(() => {
-        checkUsernameValidity(name)
+        checkUsernameValidity(username)
     }, [username])
 
     const onSaveProfile = (e) => {
